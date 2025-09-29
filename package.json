@@ -1,16 +1,10 @@
 {
   "name": "clickeffects-backend",
-  "version": "1.0.0",
-  "type": "module",
   "private": true,
+  "type": "module",
   "dependencies": {
     "@supabase/supabase-js": "^2.45.4",
     "resend": "^3.3.0",
     "stripe": "^16.0.0"
-  },
-  "scripts": {
-    "dev": "vercel dev",
-    "build": "echo \"no build step\"",
-    "start": "vercel dev"
   }
 }
